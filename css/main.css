@@ -1,0 +1,225 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+.small__text {
+  font-size: 14px;
+}
+
+/**
+navigation css
+*/
+
+
+.navbar {
+  overflow: hidden;
+  background: #1a1355;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.header {
+  float: left;
+  text-decoration: none;
+  padding: 0;
+}
+nav a {
+  font-size: 12px;
+  text-decoration: none;
+  color: inherit;
+}
+nav ul a:hover {
+  padding-bottom: 2px; 
+  border-bottom: solid 1px #0fc2ff;
+}
+.active {
+  padding-bottom: 2px; 
+  border-bottom: solid 1px #0fc2ff;
+}
+nav ul {
+  color: #0fc2ff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  float: right;
+}
+nav ul li {
+  display: inline-block;
+  font-weight: bold;
+  padding: 25px 25px;
+}
+.main {
+  margin-top: 100px;
+}
+
+
+
+/**
+hero image css
+*/
+
+.hero {
+  background-size: cover;
+  background-position: center center;
+  margin-top: 75px;
+  width: 100%;
+  height: 500px;
+  margin-bottom: 25px;
+
+}
+.hero__text { 
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  position:  absolute;
+  color: #1a1355;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform:  translate(-50%,-50%);
+}
+.hero__title { 
+  color: #1a1355;
+  margin: 0;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+
+/**
+button css
+*/
+
+.main__button {
+  display: inline-block;
+  padding: 12px 20px;
+  background:  #1a1355;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 25px;
+}
+.main__button:hover {
+  color: white;
+  background: #0fc2ff;
+}
+.button__center {
+  text-align: center;
+}
+
+
+
+/**
+footer css
+*/
+
+.footer-wrapper {
+  background: #1a1355;
+  padding: 25px 0 25px 0;
+  margin-top: 25px;
+}
+.links {
+  text-decoration: none;
+  color: #FFF
+}
+.links:hover {
+  padding-bottom: 2px; 
+  border-bottom: solid 1px #FFF;
+}
+
+/**
+images css
+*/
+
+.portfolio__images {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.container__image {
+  position: relative;
+  width: 50%;
+}
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.overlay {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.container__image:hover .image {
+  opacity: 0.2;
+}
+.container__image:hover .overlay {
+  opacity: 1;
+}
+.image__text {
+  position: absolute;
+  color: #000;
+  font-size: 16px;
+  text-transform: uppercase;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.portfolio {
+  height: 356px;
+  width: 356px;
+}
+.header__detail {
+  height: 300px;
+  width: 1115px;
+}
+.diensten__image {
+  margin-top: 36px;
+}
+
+
+
+
+/**
+form css
+*/
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    background-color: #f2f2f2;  
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+input[type=submit] {
+    background-color: #1a1355;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #0fc2ff;
+}
+.form {
+  margin-top: 25px;
+}
+
+
+
+
+
